@@ -20,7 +20,7 @@ const cliente = db.define('clientes', {
         allowNull: false
     },
     altura: {
-        type: Sequelize.DECIMAL,
+        type: Sequelize.DECIMAL(3, 2),
         allowNull: false
     }
 }, {
